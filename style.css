@@ -156,3 +156,60 @@ nav {
     text-decoration: none;
     color: #562EFF;
 }
+
+
+/* --------Lagtest Courses style --------*/
+
+.course-section {
+
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 75.5%;
+    position: relative;
+    left: 10%;
+    margin-top: 0.5%;
+    padding: 30px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course {
+    box-shadow: 5px 5px 5px lightsteelblue;
+    padding: 5px;
+    width: 95%;
+    border-radius: 8px;
+}
+
+.course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-author {
+    color: #ED6B4F;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-around;
+    width: 73%;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: #FFC014
+}
+
+.grey-star {
+    color: #AEAEAE;
+}
+
+.clock {
+    color: #FF4A60;
+    background-color: lightpink;
+    padding: 2.5px;
+    border-radius: 5px;
+}
