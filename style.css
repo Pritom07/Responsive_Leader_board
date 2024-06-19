@@ -277,7 +277,7 @@ nav {
     }
 
     .course-section {
-        width: 83%;
+        width: 83.5%;
         left: 0px;
         margin-top: 2.2%;
     }
@@ -295,5 +295,69 @@ nav {
         margin-left: 0.5%;
         margin-bottom: 8%;
     }
+
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .container {
+        margin-top: 1.5%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .menu {
+
+        margin-right: 25%;
+        margin-top: 7%;
+
+    }
+
+    .fa-circle-info,
+    .fa-briefcase {
+        margin-top: 7%;
+    }
+
+    .menu li img {
+
+        position: relative;
+        bottom: 18%;
+    }
+
+    .players {
+
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 6%;
+    }
+
+    .blogs {
+
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2.2%;
+
+    }
+
+    .description {
+
+        margin-left: 5%;
+    }
+
+    .course-section {
+
+        width: 72%;
+        margin-top: 2%;
+
+    }
+
+    .courses {
+
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3.2%;
+        row-gap: 2.8%;
+
+    }
+
 
 }
