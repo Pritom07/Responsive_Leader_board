@@ -1,0 +1,158 @@
+/* ------Common Styles or Utilities ------*/
+
+body {
+    font-family: 'Poppins';
+    background-color: #9f9f9f;
+}
+
+.container {
+    border-radius: 8px;
+    width: 80%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+
+}
+
+nav {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #562EFF;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 1%;
+}
+
+.idea {
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    margin-left: 20%;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.fa-house,
+.fa-circle-info,
+.fa-briefcase {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.menu li img {
+    width: 51px;
+    height: 51px;
+    position: relative;
+    bottom: 5px;
+}
+
+.list {
+    position: relative;
+    left: 27px;
+    bottom: 25px;
+
+}
+
+.list-1 {
+    position: relative;
+    bottom: 26px;
+    left: 23px;
+}
+
+
+/* --------Top Players Style-------- */
+
+.top-players {
+    padding: 30px;
+}
+
+.heading {
+    color: #562EFF;
+    margin-top: 2px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player-img>img {
+    width: 56px;
+    height: 56px;
+}
+
+.name {
+    position: relative;
+    bottom: 5%;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.horizontal {
+    color: #D1D1D1;
+    height: 1px;
+
+}
+
+/* --------Top Blogs style-------- */
+
+.top-blogs {
+    padding: 30px;
+}
+
+.blogheading {
+    color: #562EFF;
+    margin-top: 1px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 14px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail>img {
+    width: 177px;
+    height: 112px;
+}
+
+.description {
+    margin-left: 15px;
+    font-size: 13px;
+    position: relative;
+    bottom: 15%;
+}
+
+.author {
+    color: #9F9F9F;
+}
+
+.author span a {
+    text-decoration: none;
+    color: #562EFF;
+}
